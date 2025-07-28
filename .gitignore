@@ -1,0 +1,62 @@
+#############################
+# Unreal Engine Git Ignore #
+#############################
+
+# Project files to keep
+!*.uproject
+!Config/
+!Content/
+
+# Engine generated folders
+Saved/
+Intermediate/
+DerivedDataCache/
+Binaries/
+Build/
+*.vs/
+.vscode/
+
+# Plugin build artifacts
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+Plugins/**/Build/
+
+# Map built data
+*_BuiltData.uasset
+
+# Editor autosaves and logs
+Autosaves/
+*.log
+*.tmp
+*.cache
+*.bin
+
+# OS/System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# Optional: source art (if not needed)
+SourceArt/
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# Optional: screenshots, tests, renders
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.mov
+AutoScreenshot.png
+Cover_Test.*
+Test.*
